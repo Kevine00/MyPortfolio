@@ -1,7 +1,16 @@
 "use client"
 
-import { FaHtml5, FaCss3Alt, FaSass, FaJs, FaReact, FaBootstrap, FaGlobe, FaCode, FaGithub } from "react-icons/fa"
-import { SiTailwindcss, SiCanva, SiAdobephotoshop, SiWordpress, SiFigma, SiRedux, SiVercel } from "react-icons/si"
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap, FaGlobe, FaCode, FaGithub } from "react-icons/fa"
+import {
+  SiTailwindcss,
+  SiCanva,
+  SiAdobephotoshop,
+  SiWordpress,
+  SiFigma,
+  SiRedux,
+  SiVercel,
+  SiNextdotjs,
+} from "react-icons/si"
 
 const Skills = () => {
   const currentSkills = [
@@ -9,9 +18,9 @@ const Skills = () => {
     { name: "CSS3", icon: <FaCss3Alt className="text-[#1572B6] text-5xl mx-auto" /> },
     { name: "JavaScript", icon: <FaJs className="text-[#F7DF1E] text-5xl mx-auto" /> },
     { name: "React", icon: <FaReact className="text-[#61DAFB] text-5xl mx-auto" /> },
+    { name: "Next.js", icon: <SiNextdotjs className="text-black text-5xl mx-auto" /> },
     { name: "Tailwind CSS", icon: <SiTailwindcss className="text-[#06B6D4] text-5xl mx-auto" /> },
     { name: "Git/GitHub", icon: <FaGithub className="text-[#181717] text-5xl mx-auto" /> },
-    { name: "SASS", icon: <FaSass className="text-[#CC6699] text-5xl mx-auto" /> },
     { name: "Bootstrap", icon: <FaBootstrap className="text-[#7952B3] text-5xl mx-auto" /> },
     { name: "Canva", icon: <SiCanva className="text-[#00C4CC] text-5xl mx-auto" /> },
     { name: "Adobe Photoshop", icon: <SiAdobephotoshop className="text-[#31A8FF] text-5xl mx-auto" /> },

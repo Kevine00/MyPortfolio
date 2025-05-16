@@ -32,7 +32,7 @@ const Portfolio = () => {
       description:
         "Designed an intuitive and visually appealing interface for Kigali Events, ensuring users can effortlessly explore and book events with ease.",
       link: "https://www.figma.com/proto/tjVq7WgpbsHqUwMXLiKMDv/KIGALI-Events?node-id=247-81&node-type=canvas&t=4QYx4sPK7TFpAGME-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
-      image: "images/KFM.png", // Replace with actual image path
+      image: "images/KE.png", // Replace with actual image path
     },
     {
       id: 6,
