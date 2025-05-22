@@ -13,14 +13,14 @@ const About = () => {
             to build engaging digital experiences that users love.
           </p>
 
-          <a
+          {/* <a
             href="/Resume.pdf"
             download="Kevine_UMUBYEYI_Resume.pdf"
             className="inline-block border-2 border-gray-800 px-6 py-2 hover:bg-gray-800 hover:text-white transition-all duration-300"
             type="application/pdf"
           >
             RESUME
-          </a>
+          </a> */}
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
